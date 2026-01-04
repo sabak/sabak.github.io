@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://sabakharabadze.com/al-folio/sitemap.xml
+Sitemap: https://sabakharabadze.com/sitemap.xml
