@@ -2,96 +2,126 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Saba Kharabadze, PhD
+    - name: Location
+      value: Pisa, Tuscany, Italy
     - name: Languages
-      value: English, German
+      value: English (native/bilingual), Georgian (native/bilingual), Russian (proficient)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Physics
+      institution: Binghamton University, State University of New York
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Dissertation: Machine Learning and ab initio insights into the design of lithium-based materials"
+        - Developed neural network potentials for materials discovery
+        - First-authored publications in npj Computational Materials and Physical Chemistry Chemical Physics
+    - title: Bachelor of Science in Physics
+      institution: Free University of Tbilisi, Georgia
+      year: 2017
       description:
-        - Description 1.
-        - Description 2.
+        - Minor in Computer Science and Mathematics
+        - Merit-based tuition scholarship recipient
 
-- title: Experience
+- title: Academic Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Scientist
+      institution: CNIT RaSS Lab, Pisa, Italy
+      year: Apr 2025 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Utilizing ML approach for radar signal processing and target detection
+        - Building simulation frameworks for coverage analysis of mono- and multistatic radar systems
+
+    - title: Physics AI Model Validation Expert
+      institution: Handshake MOVE Program (Remote)
+      year: Aug 2025 - present
+      description:
+        - Creating reasoning problems and solutions for AI models to challenge their physics knowledge
+        - Evaluating AI model responses and providing feedback
+
+    - title: PhD Candidate
+      institution: Binghamton University, Binghamton, NY
+      year: 2018 - 2024
+      description:
+        - title: Discovery of new Li-Sn phases with machine learning
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Generated DFT reference data using VASP to parametrize neural network models
+            - Utilized evolutionary algorithms to produce 1+ million structures and 1TB of energy-force data
+            - Identified 8 new stable structures redefining Li-Sn convex hulls
+        - title: Stability analysis of superconducting LiBC compounds
+          contents:
+            - Calculated Li chemical potential for delithiation conditions
+            - Employed evolutionary optimization for Li2B2C configurations
+        - title: Implementation of NPT barostat molecular dynamics module
+          contents:
+            - Implemented NPT barostat in C for MAISE software package
+            - Obtained thermal expansion coefficients within 10% of experimental values
+
+    - title: Computational System Administrator
+      institution: Binghamton University
+      year: 2020 - 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Administered two HPC Linux clusters with over 1,000 cores each
+        - Installed and maintained Intel/GNU compilers, Python, VASP, ORCA, OpenMPI
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Professional Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Back-end Developer
+      institution: Eleven Wireless, Portland, OR (remote)
+      year: Oct 2017 - Apr 2018
+      description:
+        - Developed Python middle layer interfacing SQL databases and ElasticSearch
+        - Deployed and maintained reporting project on AWS Linux instance
+
+    - title: Junior Business Analyst
+      institution: TBC Bank, Tbilisi, Georgia
+      year: May 2017 - Feb 2018
+      description:
+        - Constructed flow diagrams for ATMs in innovations team
+        - Wrote system documentation within Scrum framework
+
+    - title: Software Engineer Intern
+      institution: Bank of Georgia, Tbilisi, Georgia
+      year: May 2016 - Dec 2016
+      description:
+        - Learned software development foundations and problem-solving processes
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Technical Skills
+      items:
+        - "Machine Learning & Neural Networks: PyTorch, JAX"
+        - "Programming: Python (pandas, NumPy, SciPy), C/C++, shell scripting"
+        - "Materials Modeling: DFT (VASP, Gaussian), molecular dynamics"
+        - "DevOps: Git, Docker, Linux system administration, SQL"
+    - title: Soft Skills
+      items:
+        - Presentation and written/verbal communication
+        - Problem solving and ability to adopt new technologies
+        - Teamwork and time management
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Handshake AI Fellow, Handshake MOVE Program
+    - year: 2022, 2023
       items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+        - Travel grant to present at APS March meeting, SUNY Binghamton
+    - year: 2012
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Merit-based tuition scholarship, Free University of Tbilisi
+        - Bronze medal, 43rd International Physics Olympiad (Tallinn, Estonia)
+        - Bronze medal in physics, 8th International Zhautykov Olympiad (Almaty, Kazakhstan)
+    - year: 2011
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Honorable mention, 42nd International Physics Olympiad (Bangkok, Thailand)
+    - year: 2007, 2008, 2010
+      items:
+        - 1st place in national physics olympiad, Tbilisi, Georgia
