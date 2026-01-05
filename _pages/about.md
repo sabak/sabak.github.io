@@ -28,6 +28,6 @@ latest_posts:
 ---
 I earned my PhD in Physics from Binghamton University (SUNY) in 2024, where my dissertation focused on "Machine Learning and ab initio insights into the design of lithium-based materials." My research combined neural network potentials with density functional theory (DFT) to discover new stable compounds, resulting in publications in *npj Computational Materials* and *Physical Chemistry Chemical Physics*.
 
-My expertise spans machine learning, neural networks, Python (PyTorch, JAX, pandas), C/C++, materials modeling (DFT with VASP, Gaussian), and high-performance computing. I have experience administering Linux HPC clusters, working with GPUs, and developing scientific software.
+My expertise spans machine learning, neural networks, Python (PyTorch, JAX, pandas), C/C++, materials modeling, and high-performance computing. I have experience administering Linux HPC clusters, working with GPUs, and developing scientific software.
 
 Currently I am a Research Scientist at CNIT RaSS Lab in Pisa, Italy, where I apply machine learning techniques to radar signal processing and target detection. I also build simulation frameworks for coverage analysis of mono- and multistatic radar systems.
