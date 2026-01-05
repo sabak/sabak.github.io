@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD in Physics | ML Research Engineer | CNIT RaSS Lab, Pisa, Italy
 

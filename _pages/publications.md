@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Peer-reviewed publications in computational materials science and machine learning.
 nav: true
 nav_order: 1
