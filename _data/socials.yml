@@ -29,14 +29,14 @@ email: s.kharabadze@gmail.com # your email address
 linkedin_username: kharabadze # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
-# orcid_id: # your ORCID ID
+orcid_id: 0000-0003-4504-4181 # your ORCID ID
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: # your Google Scholar ID - add yours from the URL
+# rss_icon: true # comment this line to hide the RSS icon
+scholar_userid: ydLSLn0AAAAJ&hl=en&oi=ao # your Google Scholar ID - add yours from the URL
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
