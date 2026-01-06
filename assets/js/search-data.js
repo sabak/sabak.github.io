@@ -79,18 +79,18 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/kharabadze", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-orcid',
+        title: 'ORCID',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://orcid.org/0000-0003-4504-4181", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=", "_blank");
+          window.open("https://scholar.google.com/citations?user=ydLSLn0AAAAJ&hl=en&oi=ao", "_blank");
         },
       },{
       id: 'light-theme',
