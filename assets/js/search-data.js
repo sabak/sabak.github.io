@@ -38,8 +38,8 @@ ninja.data = [{
             window.location.href = "/teaching/";
           },
         },{id: "projects-li-sn-phase-discovery",
-          title: 'Li-Sn Phase Discovery',
-          description: "Machine learning accelerated discovery of new lithium-tin compounds",
+          title: 'Li–Sn Phase Discovery',
+          description: "Neural-network potentials + large-scale structure search to accelerate DFT-grade materials discovery",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_lisn/";
             },},{id: "projects-li-b-c-stability-analysis",
@@ -49,7 +49,7 @@ ninja.data = [{
               window.location.href = "/projects/2_libc/";
             },},{id: "projects-maise-software",
           title: 'MAISE Software',
-          description: "Neural network interatomic potentials and molecular dynamics implementation",
+          description: "Automated neural-network potential training + molecular dynamics (including NPT) in an open-source simulation stack",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_maise/";
             },},{id: "projects-radar-signal-processing",
