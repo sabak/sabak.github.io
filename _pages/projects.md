@@ -5,7 +5,7 @@ permalink: /projects/
 description: Research projects in materials science, machine learning, and signal processing.
 nav: true
 nav_order: 2
-display_categories: [current, research, software]
+display_categories: [current, selected PhD research, software]
 horizontal: false
 ---
 

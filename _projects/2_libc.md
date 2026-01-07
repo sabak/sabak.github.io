@@ -4,8 +4,8 @@ title: Li-B-C Stability Analysis
 description: First-principles study of potentially superconducting lithium-boron-carbon compounds
 img: 
 importance: 2
-category: research
-related_publications: true
+category: selected PhD research
+related_publications: false
 ---
 
 ## Overview

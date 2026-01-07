@@ -3,6 +3,23 @@
 
 @string{aps = {American Physical Society,}}
 
+@misc{kharabadze2025heartbeat,
+  abbr={IEEE AESS},
+  bibtex_show={true},
+  title={Physics-Guided Transformer Modeling of Radar-Based Heartbeat Monitoring in Dynamic Scenarios},
+  author={Oveis, Amir Hosein and Pardi, Mateo and Kharabadze, Saba and Kumar, Ajeet},
+  year={2025},
+  month={September},
+  howpublished={IEEE AESS Heartbeat of the Aerospace and Electronic Systems Group Challenge Winner},
+  note={Winning proposal for the 2026 IEEE AESS Heartbeat Challenge},
+  abstract={This proposal addresses the Radar Challenge on robust heartbeat monitoring in the presence of random body motion (RBM). Our approach improves the estimation of heartbeat and its variability by combining conventional radar signal processing techniques with data-driven machine learning methods. We construct a multidimensional time-series representation from the stabilized chest signal, which serves as an input to the Transformer model. In addition, we propose a novel data augmentation strategy, where RBMs are modeled and simulated with stochastic processes. This increases the diversity of the training data and helps the model adapt to uncontrolled real-world conditions. The main innovations compared with the existing literature are: (i) the physics-guided design of a meaningful time-series input for the Transformer, and (ii) a stochastic augmentation method for synthetic RBM signals. Together, these strategies aim to achieve robust and reliable radar-based heartbeat monitoring in dynamic scenarios.},
+  award={Winner},
+  award_name={Heartbeat Challenge Winner},
+  selected={true},
+  preview={heartbeat_preview.png},
+  website={https://ieee-aess.org/post/announcement/call-solutions-ieee-aess-challenge-problem-i-radar-based-heartbeat-monitoring}
+}
+
 @article{kharabadze2022lisn,
   abbr={npj Comput. Mater.},
   bibtex_show={true},
@@ -48,7 +65,7 @@
   publisher={Royal Society of Chemistry},
   doi={https://doi.org/10.1039/D2CP05500G},
   abstract={Prediction of high-Tc superconductivity in hole-doped LixBC two decades ago has brought about an extensive effort to synthesize new materials with honeycomb B–C layers, but the thermodynamic stability of Li–B–C compounds remains largely unexplored. In this study, we use density functional theory to characterize well-established and recently reported Li–B–C phases. Our calculation of the Li chemical potential in LixBC helps estimate the (T,P) conditions required for delithiation of the LiBC parent material, while examination of B–C phases helps rationalize the observation of metastable BC3 polymorphs with honeycomb and diamond-like morphologies. At the same time, we demonstrate that recently reported BC3, LiBC3, and Li2B2C phases with new crystal structures are both dynamically and thermodynamically unstable. With a combination of evolutionary optimization and rational design, we identify considerably more natural and favorable Li2B2C configurations that, nevertheless, remain above the thermodynamic stability threshold.},
-  selected={true},
+  selected={false},
   preview={libc_preview.png}
 }
 
@@ -85,6 +102,7 @@
 }
 
 @article{kharabadze2024thesis,
+  abbr={PhD Thesis},
   title={Machine Learning and Ab Initio Insights into the Design of Lithium-Based Materials},
   author={Kharabadze, Saba},
   year={2024},
@@ -96,20 +114,4 @@
   abstract={Materials research, spanning physics, chemistry, and engineering, underpins technological innovation by enabling precise control of materials at the atomistic level. Nevertheless, the challenges of exploring the vast chemical space efficiently and cost-effectively remain. Quantum mechanical methods, such as density functional theory (DFT), while theoretically powerful, often prove computationally expensive for large systems. This thesis showcases the development of accurate machine learning potentials which aid in prediction of new materials. I have chosen \SK{two} main studies to highlight the work conducted during my PhD research. In the investigation of the Li-Sn binary system, which has been considered for energy storage applications, we focused on identifying new stable crystal structures. After constructing an interatomic description model for Li-Sn, we introduced a protocol for finding stable compounds at both low and high temperatures. Although this binary had been thoroughly explored in two recent ab initio predictive studies, we found two overlooked compounds thermodynamically stable at ambient conditions. Building on this proof-of-principle study, we expanded the scope of investigation to a much larger set of binaries to check the protocol's general performance. The investigated M-Sn binaries, where M = Na, Ca, Cu, Pd, and Ag, have a potential for a wider range of applications in energy storage, electronics packaging, and superconductivity. The application of the developed approach has led to the identification of a large number of stable phases at various synthesis conditions. The findings of these two studies demonstrated a great promise, as the discovery of over 30 new stable crystal structures has dramatically increased the number of successful predictions based on machine learning potentials. The third study was dedicated to the analysis of thermodynamic stability of Li-B-C compounds, that had been attracting a lot of attention as potential record-breaking conventional superconductors. We utilized DFT to characterize both well-established and recently reported Li-B-C phases. Our work included demonstration and rationalization of inconsistencies in previously proposed crystal structure solutions. One of the main outcomes is the construction of the phase diagram of the LiBC delithiation. Our findings reveal an incomplete knowledge of the Li–B–C ternary and the need for further experimental exploration of this intriguing materials system.}
 }
 
-@misc{kharabadze2025heartbeat,
-  abbr={IEEE AESS},
-  bibtex_show={true},
-  title={Physics-Guided Transformer Modeling of Radar-Based Heartbeat Monitoring in Dynamic Scenarios},
-  author={Oveis, Amir Hosein and Pardi, Mateo and Kharabadze, Saba and Kumar, Ajeet},
-  year={2025},
-  month={September},
-  howpublished={IEEE AESS Heartbeat of the Aerospace and Electronic Systems Group Challenge Winner},
-  note={Winning proposal for the 2026 IEEE AESS Heartbeat Challenge},
-  abstract={This proposal addresses the Radar Challenge on robust heartbeat monitoring in the presence of random body motion (RBM). Our approach improves the estimation of heartbeat and its variability by combining conventional radar signal processing techniques with data-driven machine learning methods. We construct a multidimensional time-series representation from the stabilized chest signal, which serves as an input to the Transformer model. In addition, we propose a novel data augmentation strategy, where RBMs are modeled and simulated with stochastic processes. This increases the diversity of the training data and helps the model adapt to uncontrolled real-world conditions. The main innovations compared with the existing literature are: (i) the physics-guided design of a meaningful time-series input for the Transformer, and (ii) a stochastic augmentation method for synthetic RBM signals. Together, these strategies aim to achieve robust and reliable radar-based heartbeat monitoring in dynamic scenarios.},
-  award={Winner},
-  award_name={Heartbeat Challenge Winner},
-  selected={false},
-  preview={heartbeat_preview.png},
-  website={https://ieee-aess.org/post/announcement/call-solutions-ieee-aess-challenge-problem-i-radar-based-heartbeat-monitoring}
-}
 
