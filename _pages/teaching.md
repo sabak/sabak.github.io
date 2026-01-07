@@ -63,18 +63,17 @@ I enjoy teaching and mentoring at the intersection of **first-principles reasoni
   - Team was awarded two silver medals in both physics and mathematics
 - Ran weekly training cycles: timed problem attempts → solution post-mortems → targeted drills to close skill gaps  
 
+---
 
+## Mentoring Philosophy
 
-<!-- ## Mentoring Philosophy
+I mentor the way I like to learn: start from fundamentals, stay curious, and improve through practice and feedback. My goal is to help mentees build a repeatable process for tackling hard problems.
 
-I mentor the way I approach research and engineering work: build strong foundations, iterate deliberately, and make progress visible. My goal is to help people become **independent problem solvers** who can move from “I don’t know” to a working solution with clear reasoning and reproducible steps.
+I came up through competitive physics (bronze medals at **IPhO 2012** and **IZhO 2012**), which shaped my approach: clean reasoning, strong intuition, and deliberate practice. As I am now in ML research engineering, I emphasize:
 
-Having competed in international physics olympiads myself (bronze medals at **IPhO 2012** and **IZhO 2012**), I understand the value of intuition and rigor. I pair that mindset with a practical workflow that translates well to ML research and engineering:
+- start with a simple baseline and a clear goal  
+- change one thing at a time and write down what you learned  
+- debug methodically (math, code, evaluation)  
+- communicate results clearly  
 
-- **Start with a baseline:** define the simplest working solution and what “good” means (goal/metric).  
-- **Form hypotheses:** change one thing at a time; keep a written plan for what you expect to learn.  
-- **Debug systematically:** isolate failure modes (assumptions, math, implementation, evaluation).  
-- **Communicate clearly:** concise write-ups, results that answer a question, and honest limitations.  
-- **Build ownership:** I gradually shift responsibility so mentees learn to design experiments, defend decisions, and ask better questions.
-
-I aim to create a mentoring environment that is rigorous, supportive, and growth-oriented: high standards, frequent feedback, and a focus on transferable skills. -->
+Ultimately, I want mentees to leave more independent and more confident in their ability to figure things out.
