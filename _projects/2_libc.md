@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Li-B-C Stability Analysis
-description: First-principles study of potentially superconducting lithium-boron-carbon compounds
-img: 
+title: Li–B–C Thermodynamic Stability Map
+description: First-principles stability audit of LiBC delithiation and proposed lithium borocarbide phases
+img: assets/img/publication_preview/libc_preview.png
 importance: 2
 category: selected PhD research
 related_publications: false
@@ -10,30 +10,82 @@ related_publications: false
 
 ## Overview
 
-This project investigated the thermodynamic stability of Li-B-C compounds from first principles, with a focus on understanding the potential for superconductivity in this system. The work explored conditions for delithiation of LiBC parent material and identified favorable structural configurations.
+Lithium borocarbides sit at an interesting intersection of energy materials and fundamental solid-state chemistry: **LiBC was proposed as a route toward high-*T*<sub>c</sub> superconductivity via hole-doping**, yet experimentally **delithiation produces metastable, hard-to-control LixBC derivatives** rather than a clean equilibrium pathway.
 
-## Research Focus
+In this project, we performed an **ab initio thermodynamics + stability audit** of reported and proposed **Li–B–C compounds**, connecting:
 
-- **Li Chemical Potential Analysis**: Calculated Li chemical potential in Li<sub>x</sub>BC to estimate conditions required for delithiation
-- **B-C Phase Examination**: Explained metastable BC<sub>3</sub> polymorphs with honeycomb and diamond-like morphologies
-- **Evolutionary Optimization**: Employed optimization and rational design to identify Li<sub>2</sub>B<sub>2</sub>C configurations
+- **(T, P) delithiation conditions** for LiBC in equilibrium with Li<sub>2</sub> gas  
+- stability of **BC<sub>3</sub>** polymorphs (including kinetic/dynamical feasibility)  
+- reassessments of **LiBC<sub>3</sub>** and the proposed **Li<sub>2</sub>B<sub>2</sub>C** phase  
 
-## Methodology
+---
 
-- First-principles DFT calculations
-- Phonon calculations in the quasi-harmonic approximation (QHA) framework
-- Assessment of anharmonic effects on stability
-- Analysis at varying volumes and pressures
+## My Role
 
-## Key Findings
+I was the **main author and technical coordinator** for the study. My responsibilities included:
 
-- Identified natural and favorable Li<sub>2</sub>B<sub>2</sub>C configurations
-- Determined thermodynamic stability thresholds
-- Gained insight into stability at varying volumes
-- Quantified contribution of anharmonic effects
+- Coordinating efforts among multiple collaborators (structure candidates, analysis ownership, and manuscript integration)
+- Designing the computational plan and **baselines**, and defining **rubrics** used to draw conclusions
+- Launching and monitoring large batches of DFT calculations across multiple HPC systems (consistent settings, job recovery, and reruns)
+- Synthesizing results into a coherent, reproducible stability narrative
+
+---
+
+## Approach & Stability Rubric
+
+Rather than relying on a single energy ranking, the conclusions were drawn using a layered rubric:
+
+### 1) Thermodynamic stability
+
+- Computed formation energies and evaluated **convex-hull stability** against competing phases across the Li–B–C system.
+- Used distance-to-hull as the primary criterion for equilibrium stability.
+
+### 2) Finite-temperature corrections
+
+- Incorporated **configurational entropy** for disordered Li in LixBC and **harmonic vibrational contributions** where relevant.
+- Evaluated how free-energy corrections shift relative stability and delithiation boundaries.
+
+### 3) Delithiation thermodynamics
+
+- Modeled equilibrium with **Li<sub>2</sub>** gas and mapped **x-dependent (T,P) phase boundaries** by comparing Gibbs free energies over a broad temperature range.
+- Quantified sensitivity of predicted boundaries to systematic DFT uncertainties and neglected terms.
+
+### 4) Dynamical stability checks
+
+- Used phonon-based screening to rule out candidates with **imaginary modes**, separating “thermodynamically plausible” from “dynamically unstable.”
+
+---
+
+## Structure Discovery & Verification
+
+For phases where literature models proved unstable or inconsistent, we expanded the search beyond reported prototypes:
+
+- Performed **unconstrained evolutionary searches** initialized from random structures
+- Applied **motif-driven construction** when evolutionary operators struggled with particular structural families
+- Re-optimized and cross-checked the best candidates under consistent computational settings
+
+---
+
+## Key Results
+
+### LiBC delithiation: a narrow thermodynamic window shaped by Li<sub>2</sub> gas entropy
+
+Delithiation is largely driven by entropy gain in the diatomic Li<sub>2</sub> gas phase, and equilibrium boundaries can be mapped by matching free energies of LiBC vs. LixBC + Li<sub>2</sub> mixtures. The resulting stability regions for intermediate x are narrow, helping explain why experimentally accessible compositions are strongly influenced by kinetics and process history.
+
+### BC<sub>3</sub>: layered h-BC<sub>3</sub> is dynamically unstable
+
+The commonly discussed layered h-BC<sub>3</sub> model exhibits imaginary phonon modes, indicating dynamical instability and undermining its feasibility as a stable or even metastable target.
+
+### LiBC<sub>3</sub>: Li intercalation stabilizes one polymorph more effectively
+
+Li intercalation brings one LiBC<sub>3</sub> polymorph substantially closer to stability, while other proposed variants inherit the energetic penalty of their parent frameworks and remain unfavorable; some reported structures are also dynamically unstable.
+
+### Li<sub>2</sub>B<sub>2</sub>C: improved candidates still remain far above the convex hull
+
+Evolutionary searches and motif-driven construction produced significantly improved polymorphs compared to earlier proposals. However, the best candidates still remain well above the convex hull, indicating that Li<sub>2</sub>B<sub>2</sub>C is unlikely to form under equilibrium conditions.
+
+---
 
 ## Publication
 
-Published in *Physical Chemistry Chemical Physics*:
-
-> Kharabadze, S., Meyers, M., Tomassetti, C. R., Margine, E. A., Mazin, I. I., Kolmogorov, A.N. (2023). Thermodynamic stability of Li-B-C compounds from first principles. Phys. Chem. Chem. Phys., 25, 7344-7353.
+> Kharabadze, S., Thorn, A., Sandoval, E. D., Hajinazar, S., Kolmogorov, A. N. *Thermodynamic stability of Li–B–C compounds from first principles.* (Physical Chemistry Chemical Physics).
