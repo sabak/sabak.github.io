@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Research projects in materials science, machine learning, and signal processing.",
+          description: "Selected research projects in materials science, machine learning, and signal processing.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -42,9 +42,9 @@ ninja.data = [{
           description: "Neural-network potentials + large-scale structure search to accelerate DFT-grade materials discovery",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_lisn/";
-            },},{id: "projects-li-b-c-stability-analysis",
-          title: 'Li-B-C Stability Analysis',
-          description: "First-principles study of potentially superconducting lithium-boron-carbon compounds",
+            },},{id: "projects-li-b-c-thermodynamic-stability-map",
+          title: 'Li–B–C Thermodynamic Stability Map',
+          description: "First-principles stability audit of LiBC delithiation and proposed lithium borocarbide phases",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_libc/";
             },},{id: "projects-maise-software",
@@ -52,11 +52,11 @@ ninja.data = [{
           description: "Automated neural-network potential training + molecular dynamics (including NPT) in an open-source simulation stack",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_maise/";
-            },},{id: "projects-radar-signal-processing",
-          title: 'Radar Signal Processing',
-          description: "ML approaches for radar target detection and coverage analysis",
+            },},{id: "projects-radar-heartbeat-monitoring-with-transformers",
+          title: 'Radar Heartbeat Monitoring with Transformers',
+          description: "Hybrid radar signal processing + Transformer fusion for robust heartbeat/HRV under random body motion (RBM)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_radar/";
+              window.location.href = "/projects/4_heartbeat/";
             },},{
         id: 'social-cv',
         title: 'CV',
