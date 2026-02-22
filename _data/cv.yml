@@ -70,6 +70,14 @@
 - title: Professional Experience
   type: time_table
   contents:
+    - title: Founding Member, Data Science / ML
+      institution: Keepers - https://kprs.pro, Remote
+      year: Dec 2024 - present
+      description:
+        - Build ETL pipelines to ingest exchange data into internal databases using Python, SQLAlchemy, and SQL; implement data validation and cleaning in pandas
+        - Develop anomaly detection and trend prediction on financial time-series using XGBoost and feature engineering pipelines
+        - Produce research analyses and monitoring reports to support strategy development and ongoing performance review
+
     - title: Back-end Developer
       institution: Eleven Wireless, Portland, OR (remote)
       year: Oct 2017 - Apr 2018
