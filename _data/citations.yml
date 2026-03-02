@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-20'
+  last_updated: '2026-03-02'
 papers:
   ydLSLn0AAAAJ:9yKSN-GCB0IC:
     citations: 4
@@ -26,7 +26,7 @@ papers:
     title: Large-scale search for stable tin alloys with machine learning potentials
     year: '2023'
   ydLSLn0AAAAJ:u-x6o8ySG0sC:
-    citations: 24
+    citations: 25
     title: 'Prediction of stable Li-Sn compounds: boosting ab initio searches with neural network potentials'
     year: '2022'
   ydLSLn0AAAAJ:u5HHmVD_uO8C:
