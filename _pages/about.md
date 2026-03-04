@@ -7,28 +7,30 @@ subtitle: PhD in Physics | ML Research Engineer | CNIT RaSS Lab, Pisa, Italy
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false 
   more_info: >
     <p>ML Research Engineer</p>  
     <p>Lab RaSS, CNIT</p> 
     <p>Pisa, PI, Italy</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true 
+social: true 
 
 announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false 
+  scrollable: true 
+  limit: 5 
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true 
+  limit: 3 
 ---
 
-I build machine learning systems for scientific and engineering problems, with a focus on scalable training on GPUs and HPC environments. My work spans neural networks, distributed training, and performance-oriented software development in Python (PyTorch, JAX) and C/C++.
+I build machine learning systems for scientific and engineering problems, focusing on **scalable training in HPC environments** (JAX, PyTorch, C/C++). My work is driven by a fascination with how AI can be used to model and reason about the physical world.
 
-I earned my PhD in Physics from Binghamton University, State University of New York, in 2024. My dissertation, “Machine Learning and ab initio insights into the design of lithium-based materials,” combined neural network potentials with density functional theory (DFT) to discover stable lithium-based compounds, with publications including *npj Computational Materials* and *Physical Chemistry Chemical Physics*.
+I earned my PhD in Physics from Binghamton University in 2024, where I developed neural network potentials to accelerate materials discovery - research published in **npj Computational Materials** (Nature Partner Journal). 
 
-I currently work as a Research Engineer in Pisa, Italy, applying machine learning to radar signal processing and target detection and building simulation frameworks for mono- and multistatic radar coverage analysis. I also have hands-on experience administering Linux HPC clusters and developing research software that runs reliably at scale.
+Currently, I am a Research Engineer at CNIT RaSS Lab in Italy, where I recently **won the IEEE Radar Challenge** by developing a Transformer-based pipeline for robust heartbeat monitoring.
+
+Alongside my core engineering work, I maintain a focus on **AI evaluation and technical pedagogy**. Drawing on my background as an early EdTech founder and Physics Olympiad coach, I currently work on stress-testing AI models to ensure they can navigate complex physical reasoning with precision and reliability.
