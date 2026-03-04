@@ -16,8 +16,8 @@
       year: 2024
       description:
         - "Dissertation: Machine Learning and ab initio insights into the design of lithium-based materials"
-        - Developed neural network potentials for materials discovery
-        - First-authored publications in npj Computational Materials and Physical Chemistry Chemical Physics
+        - Developed neural network potentials for materials discovery using PyTorch and C
+        - Published first-author research in **npj Computational Materials** (Nature Partner Journal) and **PCCP**
     - title: Bachelor of Science in Physics
       institution: Free University of Tbilisi, Georgia
       year: 2017
@@ -25,111 +25,100 @@
         - Minor in Computer Science and Mathematics
         - Merit-based tuition scholarship recipient
 
-- title: Academic Experience
+- title: Research & AI Engineering
   type: time_table
   contents:
-    - title: Research Scientist
+    - title: ML Research Engineer (Research Scientist)
       institution: CNIT RaSS Lab, Pisa, Italy
-      year: Apr 2025 - present
+      year: 2025 - present
       description:
-        - Utilizing ML approach for radar signal processing and target detection
+        - **Winner of the IEEE Radar Challenge**: Developed a Transformer-based pipeline for heart rate estimation, achieving a 65% improvement over the baseline
+        - Utilizing ML approaches for radar signal processing and target detection
         - Building simulation frameworks for coverage analysis of mono- and multistatic radar systems
 
     - title: Physics AI Model Validation Expert
-      institution: Handshake MOVE Program (Remote)
-      year: Aug 2025 - present
+    - institution: Handshake MOVE Program (Remote)
+      year: 2025 - present
       description:
-        - Creating reasoning problems and solutions for AI models to challenge their physics knowledge
-        - Evaluating AI model responses and providing feedback
+        - Designing complex reasoning problems to stress-test AI models' understanding of physics and logic
+        - Evaluating model responses and providing structured pedagogical feedback to improve reasoning capabilities
 
-    - title: PhD Candidate
+    - title: PhD Candidate (Research Engineering)
       institution: Binghamton University, Binghamton, NY
       year: 2018 - 2024
       description:
-        - title: Discovery of new Li-Sn phases with machine learning
+        - title: ML-Accelerated Discovery & High-Throughput Pipelines
           contents:
-            - Generated DFT reference data using VASP to parametrize neural network models
-            - Utilized evolutionary algorithms to produce 1+ million structures and 1TB of energy-force data
+            - Built end-to-end pipelines scaling evolutionary search + ML potentials to **1M+ structures and 1TB of data**
+            - Managed large-scale HPC campaigns with reproducible run tooling, logging, and structured outputs
             - Identified 8 new stable structures redefining Li-Sn convex hulls
-        - title: Stability analysis of superconducting LiBC compounds
+        - title: Systems & Software Development
           contents:
-            - Calculated Li chemical potential for delithiation conditions
-            - Employed evolutionary optimization for Li2B2C configurations
-        - title: Implementation of NPT barostat molecular dynamics module
-          contents:
-            - Implemented NPT barostat in C for MAISE software package
-            - Obtained thermal expansion coefficients within 10% of experimental values
-
-    - title: Computational System Administrator
-      institution: Binghamton University
-      year: 2020 - 2021
-      description:
-        - Administered two HPC Linux clusters with over 1,000 cores each
-        - Installed and maintained Intel/GNU compilers, Python, VASP, ORCA, OpenMPI
+            - Implemented an **NPT barostat module in C** for the MAISE software package; optimized performance-critical paths
+            - Administered two university-wide HPC Linux clusters (1,000+ cores); configured GPU nodes and job schedulers
+            - Installed and maintained the full scientific stack: CUDA, PyTorch, JAX, VASP, and Intel/GNU compilers
 
 - title: Professional Experience
   type: time_table
   contents:
     - title: Founding Member, Data Science / ML
       institution: Keepers - https://kprs.pro, Remote
-      year: Dec 2024 - present
+      year: 2024 - present
       description:
-        - Build ETL pipelines to ingest exchange data into internal databases using Python, SQLAlchemy, and SQL; implement data validation and cleaning in pandas
-        - Develop anomaly detection and trend prediction on financial time-series using XGBoost and feature engineering pipelines
-        - Produce research analyses and monitoring reports to support strategy development and ongoing performance review
+        - Build ETL pipelines to ingest exchange data using Python, SQLAlchemy, and SQL; implement cleaning in pandas
+        - Develop anomaly detection and trend prediction on financial time-series using XGBoost and feature engineering
 
     - title: Back-end Developer
       institution: Eleven Wireless, Portland, OR (remote)
-      year: Oct 2017 - Apr 2018
+      year: 2017 - 2018
       description:
         - Developed Python middle layer interfacing SQL databases and ElasticSearch
-        - Deployed and maintained reporting project on AWS Linux instance
+        - Deployed and maintained reporting services on AWS Linux instances with live patching
 
-    - title: Junior Business Analyst
-      institution: TBC Bank, Tbilisi, Georgia
-      year: May 2017 - Feb 2018
+- title: Teaching & Educational Technology
+  type: time_table
+  contents:
+    - title: Co-Founder (Conceptual Design & Content)
+      institution: Nebula, Tbilisi, Georgia
+      year: 2015 - 2016
       description:
-        - Constructed flow diagrams for ATMs in innovations team
-        - Wrote system documentation within Scrum framework
+        - Co-founded an online platform providing **Khan Academy-style video lectures** and interactive exercises for national entrance exams
+        - **Designed the technical architecture** for the content delivery system and drafted specifications for automated student assessment
+        - Conceptualized logic for **automated difficulty progression** and structured data schemas for math/reasoning evaluations
+        - Authored and produced video lectures covering core STEM topics for the Georgian national curriculum
 
-    - title: Software Engineer Intern
-      institution: Bank of Georgia, Tbilisi, Georgia
-      year: May 2016 - Dec 2016
+    - title: Head Teaching Assistant - Physics
+      institution: Binghamton University, Binghamton, NY
+      year: 2018 - 2020
       description:
-        - Learned software development foundations and problem-solving processes
+        - Led lab sessions for introductory physics; earned **85% positive feedback**
+        - Mentored and onboarded new TAs; created supplementary solution guides and review worksheets
+
+    - title: Physics Olympiad Coach
+      institution: 42nd School of Physics and Mathematics, Tbilisi, Georgia
+      year: 2012 - 2018
+      description:
+        - Coached students for international competitions; led the team to the 2016 International Zhautykov Olympiad
+        - Team awarded **silver medals** in both physics and mathematics
 
 - title: Skills
   type: nested_list
   contents:
     - title: Technical Skills
       items:
-        - "Machine Learning & Neural Networks: PyTorch, JAX"
-        - "Programming: Python (pandas, NumPy, SciPy), C/C++, shell scripting"
-        - "Materials Modeling: DFT (VASP, Gaussian), molecular dynamics"
-        - "DevOps: Git, Docker, Linux system administration, SQL"
-    - title: Soft Skills
-      items:
-        - Presentation and written/verbal communication
-        - Problem solving and ability to adopt new technologies
-        - Teamwork and time management
+        - "ML & Systems: JAX, PyTorch, Transformers, Distributed Training"
+        - "Programming: Python (pandas, NumPy, SciPy), C/C++, SQL, Bash"
+        - "Infrastructure: HPC (GPU nodes, Slurm/Schedulers), CUDA, Docker, Linux SysAdmin, AWS"
+        - "Evaluation: AI Model Validation, Reasoning benchmarks, Learning Science, Scaffolding"
 
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2025
       items:
+        - **Winner, IEEE Radar Challenge**
         - Handshake AI Fellow, Handshake MOVE Program
-    - year: 2022, 2023
-      items:
-        - Travel grant to present at APS March meeting, SUNY Binghamton
     - year: 2012
       items:
-        - Merit-based tuition scholarship, Free University of Tbilisi
-        - Bronze medal, 43rd International Physics Olympiad (Tallinn, Estonia)
-        - Bronze medal in physics, 8th International Zhautykov Olympiad (Almaty, Kazakhstan)
-    - year: 2011
-      items:
-        - Honorable mention, 42nd International Physics Olympiad (Bangkok, Thailand)
-    - year: 2007, 2008, 2010
-      items:
-        - 1st place in national physics olympiad, Tbilisi, Georgia
+        - **Bronze Medal**, 43rd International Physics Olympiad (Tallinn, Estonia)
+        - **Bronze Medal**, 8th International Zhautykov Olympiad (Almaty, Kazakhstan)
