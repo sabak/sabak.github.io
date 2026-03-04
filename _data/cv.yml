@@ -32,12 +32,12 @@
       institution: CNIT RaSS Lab, Pisa, Italy
       year: 2025 - present
       description:
-        - **Winner of the IEEE Radar Challenge**: Developed a Transformer-based pipeline for heart rate estimation, achieving a 65% improvement over the baseline
+        - "**Winner of the IEEE Radar Challenge**: Developed a Transformer-based pipeline for heart rate estimation, achieving a 65% improvement over the baseline"
         - Utilizing ML approaches for radar signal processing and target detection
         - Building simulation frameworks for coverage analysis of mono- and multistatic radar systems
 
     - title: Physics AI Model Validation Expert
-    - institution: Handshake MOVE Program (Remote)
+      institution: Handshake MOVE Program (Remote)
       year: 2025 - present
       description:
         - Designing complex reasoning problems to stress-test AI models' understanding of physics and logic
@@ -83,7 +83,7 @@
       year: 2015 - 2016
       description:
         - Co-founded an online platform providing **Khan Academy-style video lectures** and interactive exercises for national entrance exams
-        - **Designed the technical architecture** for the content delivery system and drafted specifications for automated student assessment
+        - "**Designed the technical architecture** for the content delivery system and drafted specifications for automated student assessment"
         - Conceptualized logic for **automated difficulty progression** and structured data schemas for math/reasoning evaluations
         - Authored and produced video lectures covering core STEM topics for the Georgian national curriculum
 
@@ -116,9 +116,9 @@
   contents:
     - year: 2025
       items:
-        - **Winner, IEEE Radar Challenge**
+        - "**Winner, IEEE Radar Challenge**"
         - Handshake AI Fellow, Handshake MOVE Program
     - year: 2012
       items:
-        - **Bronze Medal**, 43rd International Physics Olympiad (Tallinn, Estonia)
-        - **Bronze Medal**, 8th International Zhautykov Olympiad (Almaty, Kazakhstan)
+        - "**Bronze Medal**, 43rd International Physics Olympiad (Tallinn, Estonia)"
+        - "**Bronze Medal**, 8th International Zhautykov Olympiad (Almaty, Kazakhstan)"
