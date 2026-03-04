@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching-amp-mentorship",
           title: "Teaching &amp; Mentorship",
-          description: "Teaching and mentorship experience in university physics and physics olympiad coaching.",
+          description: "Experience in AI-driven pedagogy, educational technology, and mentoring at the intersection of physics and machine learning.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
