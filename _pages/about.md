@@ -29,7 +29,7 @@ latest_posts:
 
 I build machine learning systems for scientific and engineering problems, focusing on **scalable training in HPC environments** (JAX, PyTorch, C/C++). My work is driven by a fascination with how AI can be used to model and reason about the physical world.
 
-I earned my PhD in Physics from Binghamton University in 2024, where I developed neural network potentials to accelerate materials discovery - research published in **npj Computational Materials** (Nature Partner Journal). 
+I earned my PhD in Physics from Binghamton University in 2024, where I developed neural network potentials to accelerate materials discovery - research published in **npj Computational Materials** (Nature Partner Journal). Alongside my research, I also administered the university high-performance computing resources. 
 
 Currently, I am a Research Engineer at CNIT RaSS Lab in Italy, where I recently **won the IEEE Radar Challenge** by developing a Transformer-based pipeline for robust heartbeat monitoring.
 
