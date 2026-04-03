@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-25'
+  last_updated: '2026-04-03'
 papers:
   ydLSLn0AAAAJ:9yKSN-GCB0IC:
     citations: 4
@@ -34,6 +34,6 @@ papers:
     title: 'MAISE: Construction of neural network interatomic models and evolutionary structure optimization'
     year: '2021'
   ydLSLn0AAAAJ:zYLM7Y9cAGgC:
-    citations: 16
+    citations: 15
     title: Machine learning search for stable binary Sn alloys with Na, Ca, Cu, Pd, and Ag
     year: '2023'
