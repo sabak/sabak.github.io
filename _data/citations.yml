@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-19'
+  last_updated: '2026-07-15'
 papers:
   ydLSLn0AAAAJ:9yKSN-GCB0IC:
     citations: 4
@@ -30,7 +30,7 @@ papers:
     title: 'Prediction of stable Li-Sn compounds: boosting ab initio searches with neural network potentials'
     year: '2022'
   ydLSLn0AAAAJ:u5HHmVD_uO8C:
-    citations: 66
+    citations: 67
     title: 'MAISE: Construction of neural network interatomic models and evolutionary structure optimization'
     year: '2021'
   ydLSLn0AAAAJ:zYLM7Y9cAGgC:
